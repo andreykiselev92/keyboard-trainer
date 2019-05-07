@@ -1,0 +1,26 @@
+.SelectLanguage {
+	position: absolute;
+	width: 185px;
+	padding: 20px 20px 10px 20px;
+	border: 2px solid #526f87;
+	z-index: 9999;
+	top: 5px;
+	display: flex;
+	flex-direction: column;
+	background: #c2cdd3;
+	border-radius: 5px;
+	box-shadow: 4px 3px 10px #526f87;
+}
+
+.SelectLanguage * {
+	background: inherit;
+}
+
+.SelectLanguage p {
+	margin-bottom: 10px;
+}
+
+.SelectLanguage label {
+	margin-left: 5px;
+	cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.InputText {
+	width: 100%;
+	padding: 8px 0px 8px 0px;
+	margin-top: 40px;
+	border: 2px solid black;
+	outline: none;
+	font-size: 18px;
+	letter-spacing: 1px;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 600;
+	line-height: 26px;
+	resize: none;
+	height: 20px;
+	overflow: hidden;
+}
+
+.InputText:focus {
+	border: none;
+	border-bottom: 2px dotted #ccc;
+	padding: 10px 2px 8px 2px;
+}
+
+.InputText.error {
+	background: #ff6c6c;
+}

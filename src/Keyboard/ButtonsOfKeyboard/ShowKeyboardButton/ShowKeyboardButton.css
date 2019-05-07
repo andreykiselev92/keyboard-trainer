@@ -1,0 +1,16 @@
+.ButtonsOfKeyboard .showKeyboard {
+	width: 49px;
+	height: 30px;
+	background: url(./showKeyboard.png);
+}
+
+.ButtonsOfKeyboard .showKeyboard.off::before {
+	height: 57px;
+	transform: rotate(-56deg);
+}
+
+.ButtonsOfKeyboard .showKeyboard.off::after {
+	height: 57px;
+	top: -26px;
+	transform: rotate(56deg);
+}

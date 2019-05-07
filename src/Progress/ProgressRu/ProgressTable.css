@@ -1,0 +1,15 @@
+.ProgressTable tbody td:last-child {
+	position: relative;
+}
+
+.ProgressTable tbody td:last-child span {
+	position: absolute;
+	right: -30px;
+	color: red;
+	cursor: pointer;
+	user-select: none;
+}
+
+.ProgressTable tbody td:last-child span:hover {
+	color: rgb(117, 5, 5);
+}
