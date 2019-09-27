@@ -17,6 +17,7 @@ export function getArrOfText(engLang, str = "") {
 
   str = str.replace(/( )+/g, " ");
   str = str.replace(/\n+/g, "¶");
+  str = str.replace(/–/g, "-");
   str = str.replace(/—/g, "-");
 
   for (let i = 0; i < str.length; i++) {
