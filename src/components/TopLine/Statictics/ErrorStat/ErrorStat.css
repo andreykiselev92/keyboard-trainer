@@ -1,0 +1,10 @@
+.errorStat {
+	margin-left: 50px;
+}
+
+.errorStat::before {
+	background: url(./error.png);
+	width: 30px;
+	height: 26px;
+	top: -5px;
+}

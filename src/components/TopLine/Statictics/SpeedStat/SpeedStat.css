@@ -1,0 +1,5 @@
+.speedStat::before {
+	background: url(./speed.png);
+	width: 30px;
+	height: 20px;
+}

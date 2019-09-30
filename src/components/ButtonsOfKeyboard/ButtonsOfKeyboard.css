@@ -1,0 +1,29 @@
+.buttonsOfKeyboard {
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 20px;
+}
+
+.buttonsOfKeyboard div {
+	margin-right: 15px;
+	position: relative;
+	cursor: pointer;
+}
+
+.buttonsOfKeyboard div.off::before {
+	display: block;
+	width: 2px;
+	content: "";
+	position: absolute;
+	background: red;
+	transform-origin: top left;
+}
+
+.buttonsOfKeyboard div.off::after {
+	display: block;
+	width: 2px;
+	content: "";
+	position: absolute;
+	background: red;
+	transform-origin: bottom left;
+}

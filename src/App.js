@@ -1,14 +1,13 @@
 import React, { Component } from "react";
 import "./App.css";
-import { getEngNum } from "./texts/engNumLine";
-import { getRuNum } from "./texts/ruNumLine";
-import {getArrOfText} from "./getArrOfText";
+import { getNum } from "./texts/numLine";
+import { getArrOfText } from "./getArrOfText";
 
-import Keyboard from "./Keyboard/Keyboard";
-import TextField from "./TextField/TextField";
-import InputTextField from "./InputText/InputText";
-import TopLine from "./TopLine/TopLine";
-import Progress from "./Progress/Progress";
+import Keyboard from "./components/Keyboard/Keyboard";
+import TextField from "./components/TextField/TextField";
+import InputTextField from "./components/InputText/InputText";
+import TopLine from "./components/TopLine/TopLine";
+import Progress from "./components/Progress/Progress";
 
 export default class App extends Component {
   state = {
@@ -199,10 +198,10 @@ export default class App extends Component {
       this.changeLanguage("ru", text);
       return;
     } else if (value === "engNum") {
-      this.changeLanguage("eng", getEngNum());
+      this.changeLanguage("eng", getNum("eng"));
       return;
     } else if (value === "ruNum") {
-      this.changeLanguage("ru", getRuNum());
+      this.changeLanguage("ru", getNum("ru"));
       return;
     }
 
@@ -253,7 +252,7 @@ export default class App extends Component {
     }
 
     return (
-      <div className="App">
+      <div className="app">
         <TopLine
           value={this.state.value}
           length={this.state.activeString.length}

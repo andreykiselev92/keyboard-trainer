@@ -1,9 +1,0 @@
-.KeysRow {
-	display: flex;
-	justify-content: space-between;
-	margin-bottom: 7px;
-}
-
-.KeysRow:last-child {
-	justify-content: center;
-}

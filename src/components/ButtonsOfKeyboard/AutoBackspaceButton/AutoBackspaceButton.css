@@ -1,0 +1,23 @@
+.buttonsOfKeyboard .autoBackspace {
+	width: 40px;
+	height: 30px;
+	/* border: 1px solid black;
+	border-radius: 4px;
+	font-size: 26px;
+	line-height: 27px;
+	text-align: center;
+	background: #3dc95b;
+	user-select: none; */
+	background: url(backspace.svg);
+}
+
+.buttonsOfKeyboard .autoBackspace.off::before {
+	height: 50px;
+	transform: rotate(-50deg);
+}
+
+.buttonsOfKeyboard .autoBackspace.off::after {
+	height: 50px;
+	top: -19px;
+	transform: rotate(50deg);
+}

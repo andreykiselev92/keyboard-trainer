@@ -1,0 +1,111 @@
+.keyboard {
+	/* margin: 0 auto;
+	width: 900px;
+	display: flex;
+	flex-direction: column; */
+}
+
+.keysRow {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 7px;
+}
+
+.keysRow:last-child {
+	justify-content: center;
+}
+
+.keyItem {
+	width: 50px;
+	height: 50px;
+	border: 1px solid rgb(16, 75, 109);
+	border-radius: 4px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	font-weight: bold;
+}
+
+
+.keyItem.active {
+	background: #ccc;
+}
+
+.key-Backspace,
+.key-Tab,
+.key-CapsLock,
+.key-Enter,
+.key-Shift,
+.key-Space {
+	font-weight: normal;
+}
+
+.key-Backspace {
+	width: 80px;
+	font-size: 14px;
+}
+
+.key-Tab {
+	width: 65px;
+}
+
+.key-CapsLock,
+.key-Enter {
+	width: 85px;
+}
+
+.key-Shift {
+	width: 95px;
+}
+
+.key-Space {
+	width: 350px;
+}
+
+.key-left-2 {
+	background: #e6a459;
+}
+
+.key-right-2 {
+	background: #e8eb5c;
+}
+
+.key-left-3,
+.key-right-3 {
+	background: #8de659;
+}
+
+.key-left-4,
+.key-right-4 {
+	background: #59c5e6;
+}
+
+.key-left-5,
+.key-right-5 {
+	background: #3dc95b;
+}
+
+.key-colorSpace-1 {
+	background: #3ac0b9;
+}
+
+
+.keyItem span:nth-child(2) {
+	position: absolute;
+	left: 34px;
+	top: 3px;
+	font-size: 13px;
+}
+
+.keyItem span {
+	background: inherit;
+}
+
+.markItem::after {
+	content: "";
+	position: absolute;
+	top: 40px;
+	width: 35%;
+	border-bottom: 2.5px solid rgba(0, 0, 0, .3);
+}

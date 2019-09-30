@@ -1,0 +1,16 @@
+.buttonsOfKeyboard .showHands {
+	width: 45px;
+	height: 30px;
+	background: url(./showHands.png);
+}
+
+.buttonsOfKeyboard .showHands.off::before {
+	height: 54px;
+	transform: rotate(-54deg);
+}
+
+.buttonsOfKeyboard .showHands.off::after {
+	height: 54px;
+	top: -24px;
+	transform: rotate(54deg);
+}
