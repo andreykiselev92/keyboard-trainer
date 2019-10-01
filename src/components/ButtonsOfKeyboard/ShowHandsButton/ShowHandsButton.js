@@ -1,8 +1,8 @@
 import React from "react";
 import "./ShowHandsButton.css";
 
-export default function ShowHandsButton(props) {
-  function showHandsClick() {
+const ShowHandsButton = (props) => {
+  const showHandsClick = () => {
     props.showHandsHandle();
   }
 
@@ -23,3 +23,5 @@ export default function ShowHandsButton(props) {
     />
   );
 }
+
+export default ShowHandsButton;

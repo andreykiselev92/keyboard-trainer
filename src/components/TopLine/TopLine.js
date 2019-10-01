@@ -4,7 +4,7 @@ import "./TopLine.css";
 import Statistics from "./Statictics/Statictics";
 import SetLanguage from "./SetLanguage/SetLanguage";
 
-export default function TopLine(props) {
+const TopLine = (props) => {
   return (
     <div className="topLine">
       <SetLanguage changeLanguage={props.changeLanguage} />
@@ -12,3 +12,5 @@ export default function TopLine(props) {
     </div>
   );
 }
+
+export default TopLine;

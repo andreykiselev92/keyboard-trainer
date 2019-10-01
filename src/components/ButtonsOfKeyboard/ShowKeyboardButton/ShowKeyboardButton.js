@@ -1,8 +1,8 @@
 import React from "react";
 import "./ShowKeyboardButton.css";
 
-export default function ShowKeyboardButton(props) {
-  function showKeyboardClick() {
+const ShowKeyboardButton = (props) => {
+  const showKeyboardClick = () => {
     props.showKeyboardHandle();
   }
 
@@ -20,6 +20,8 @@ export default function ShowKeyboardButton(props) {
       className={showKeyboardClasses.join(" ")}
       title={showKeyboardTitle}
     />
-      
+
   );
 }
+
+export default ShowKeyboardButton;

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Preloader.css"
 
-export default function Preloader() {
+const Preloader = () => {
   return (
     <div className="lds-css ng-scope">
       <div className="lds-rolling">
@@ -10,3 +10,5 @@ export default function Preloader() {
     </div>
   );
 }
+
+export default Preloader;

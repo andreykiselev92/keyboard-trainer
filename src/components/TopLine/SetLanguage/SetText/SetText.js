@@ -2,7 +2,7 @@ import React from "react";
 import "./SetText.css";
 import CloseButton from "../CloseButton/CloseButton";
 
-export default function SetText(props) {
+const SetText = (props) => {
   const keyDownHandler = e => {
     if (e.keyCode === 27) {
       close();
@@ -28,3 +28,5 @@ export default function SetText(props) {
     </div>
   );
 }
+
+export default SetText;

@@ -1,7 +1,7 @@
 import React from "react";
 import KeyItem from "./KeyItem";
 
-export default function KeysRow(props) {
+const KeysRow = (props) => {
   const targetValue = props.targetValue;
   const listOfKeys = props.row.map(elem => {
     const isActive = targetValue === elem.keyValue ? true : false;
@@ -17,3 +17,5 @@ export default function KeysRow(props) {
 
   return <div className="keysRow">{listOfKeys}</div>;
 }
+
+export default KeysRow;

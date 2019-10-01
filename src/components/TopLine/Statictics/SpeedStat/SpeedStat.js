@@ -1,7 +1,7 @@
 import React from "react";
 import "./SpeedStat.css";
 
-export default function SpeedStat(props) {
+const SpeedStat = (props) => {
   return (
     <div
       className="speedStat"
@@ -11,3 +11,5 @@ export default function SpeedStat(props) {
     </div>
   );
 }
+
+export default SpeedStat;

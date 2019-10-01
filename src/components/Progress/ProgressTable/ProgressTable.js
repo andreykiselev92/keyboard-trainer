@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProgressTable.css";
 
-export default function ProgressTable(props) {
+const ProgressTable = (props) => {
   const bodyTable = props.arr.map((elem, index) => {
     const date = new Date(elem.date);
     return (
@@ -39,3 +39,5 @@ export default function ProgressTable(props) {
 
   return table;
 }
+
+export default ProgressTable;

@@ -1,7 +1,7 @@
 import React from "react";
 import "./ActiveTextField.css";
 
-export default function ActiveTextField(props) {
+const ActiveTextField = (props) => {
   let string = props.string;
 
   let strArr = string.split("");
@@ -30,3 +30,5 @@ export default function ActiveTextField(props) {
     </div>
   );
 }
+
+export default ActiveTextField;

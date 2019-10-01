@@ -2,7 +2,7 @@ import React from "react";
 import "./Progress.css";
 import ProgressTable from "./ProgressTable/ProgressTable";
 
-export default function Progress(props) {
+const Progress = (props) => {
   return (
     <div className="progress">
       <h1>Достижения:</h1>
@@ -17,11 +17,11 @@ export default function Progress(props) {
                 deleteHandler={props.deleteHandler}
               />
             ) : (
-              "Пока нет достижений"
-            )
+                "Пока нет достижений"
+              )
           ) : (
-            "Пока нет достижений"
-          )}
+              "Пока нет достижений"
+            )}
         </div>
         <div className="progressItem">
           <h3>Русская раскладка (йцукен)</h3>
@@ -33,13 +33,15 @@ export default function Progress(props) {
                 deleteHandler={props.deleteHandler}
               />
             ) : (
-              "Пока нет достижений"
-            )
+                "Пока нет достижений"
+              )
           ) : (
-            "Пока нет достижений"
-          )}
+              "Пока нет достижений"
+            )}
         </div>
       </div>
     </div>
   );
 }
+
+export default Progress;

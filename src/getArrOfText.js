@@ -70,7 +70,8 @@ const changeString = str => {
 };
 
 const deleteFirstSpace = item => {
-  return item.replace(/^( )+/g, "");
+  // return item.replace(/^( )+/g, "");
+  return item.trim();
 };
 
 const getStringWithEnter = ({ indexEnter, subStr }) => {

@@ -2,8 +2,8 @@ import React from "react";
 import "./SelectLanguage.css";
 import CloseButton from "../CloseButton/CloseButton";
 
-export default function SelectLanguage(props) {
-  function handleRadioChange(e) {
+const SelectLanguage = (props) => {
+  const handleRadioChange = (e) => {
     setTimeout(props.close, 100);
 
     props.selectLanguageHandler(e.target.value);
@@ -32,3 +32,5 @@ export default function SelectLanguage(props) {
     </div>
   );
 }
+
+export default SelectLanguage;
