@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/keyboard-trainer/static/css/main.c0c7a18d.chunk.css",
-    "main.js": "/keyboard-trainer/static/js/main.e97ff03e.chunk.js",
-    "main.js.map": "/keyboard-trainer/static/js/main.e97ff03e.chunk.js.map",
+    "main.css": "/keyboard-trainer/static/css/main.c5e5ccd5.chunk.css",
+    "main.js": "/keyboard-trainer/static/js/main.758fb645.chunk.js",
+    "main.js.map": "/keyboard-trainer/static/js/main.758fb645.chunk.js.map",
     "runtime~main.js": "/keyboard-trainer/static/js/runtime~main.da4e7c66.js",
     "runtime~main.js.map": "/keyboard-trainer/static/js/runtime~main.da4e7c66.js.map",
-    "static/js/2.b6fe4141.chunk.js": "/keyboard-trainer/static/js/2.b6fe4141.chunk.js",
-    "static/js/2.b6fe4141.chunk.js.map": "/keyboard-trainer/static/js/2.b6fe4141.chunk.js.map",
+    "static/js/2.743d3e4f.chunk.js": "/keyboard-trainer/static/js/2.743d3e4f.chunk.js",
+    "static/js/2.743d3e4f.chunk.js.map": "/keyboard-trainer/static/js/2.743d3e4f.chunk.js.map",
     "index.html": "/keyboard-trainer/index.html",
-    "precache-manifest.a82c024c2e1dd25a7152705047903761.js": "/keyboard-trainer/precache-manifest.a82c024c2e1dd25a7152705047903761.js",
+    "precache-manifest.752b12399e7d49e386245c0d0008ed16.js": "/keyboard-trainer/precache-manifest.752b12399e7d49e386245c0d0008ed16.js",
     "service-worker.js": "/keyboard-trainer/service-worker.js",
-    "static/css/main.c0c7a18d.chunk.css.map": "/keyboard-trainer/static/css/main.c0c7a18d.chunk.css.map"
+    "static/css/main.c5e5ccd5.chunk.css.map": "/keyboard-trainer/static/css/main.c5e5ccd5.chunk.css.map",
+    "static/media/AutoBackspaceButton.css": "/keyboard-trainer/static/media/backspace.fde33154.svg",
+    "static/media/FillColorsButton.css": "/keyboard-trainer/static/media/fillColor.817aaa0c.svg"
   }
 }
